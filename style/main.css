@@ -1,2 +1,16 @@
 @import url(./font.css);
 
+/* O'zgaruvchi */
+:root {
+    --RR: 'Roboto-Regular';
+    --RB: 'Roboto-Bold';
+    --primary: rgba(50, 46, 65, 1);
+    --secondary: #fff;
+    --violet: rgba(84, 66, 148, 1);
+    --gold: rgba(213, 115, 0, 1);
+}
+
+h2 {
+    font-family: --, sans-serif;
+    color: rgba(213, 115, 0, 1);
+}
