@@ -10,7 +10,48 @@
     --gold: rgba(213, 115, 0, 1);
 }
 
-h2 {
-    font-family: --, sans-serif;
-    color: rgba(213, 115, 0, 1);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* ********************************************** header start *************************************** */
+
+.page__header {
+    background-color: var(--primary);
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    color: var(--secondary);
+    font-family: var(--RR);
+    font-size: 16px;
+    line-height: 19px;
+    padding: 23px 14px;
+    transition: .3s;
+}
+
+.nav__link:hover {
+    background-color: var(--secondary);
+    color: var(--gold);
 }
